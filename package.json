@@ -1,0 +1,16 @@
+{
+  "name": "secure_wallet",
+  "version": "1.0.0",
+  "description": "Generate a encrypted account json without exposing its private key or seed.",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node index.js"
+  },
+  "author": "kdbvier",
+  "license": "ISC",
+  "dependencies": {
+    "ethereum-keystore": "^0.0.3",
+    "ethers": "^6.13.4",
+    "readline-sync": "^1.4.10"
+  }
+}
